@@ -1,0 +1,267 @@
+@import "./tokens.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .title-xxl-normal {
+    font-family: var(--typography-title-xxl-normal-font-family);
+    font-weight: var(--typography-title-xxl-normal-font-weight);
+    font-size: var(--typography-title-xxl-normal-font-size);
+    line-height: var(--typography-title-xxl-normal-line-height);
+  }
+  .title-xl-normal {
+    font-family: var(--typography-title-xl-normal-font-family);
+    font-weight: var(--typography-title-xl-normal-font-weight);
+    font-size: var(--typography-title-xl-normal-font-size);
+    line-height: var(--typography-title-xl-normal-line-height);
+  }
+  .title-lg-normal {
+    font-family: var(--typography-title-lg-normal-font-family);
+    font-weight: var(--typography-title-lg-normal-font-weight);
+    font-size: var(--typography-title-lg-normal-font-size);
+    line-height: var(--typography-title-lg-normal-line-height);
+  }
+  .title-md-normal {
+    font-family: var(--typography-title-md-normal-font-family);
+    font-weight: var(--typography-title-md-normal-font-weight);
+    font-size: var(--typography-title-md-normal-font-size);
+    line-height: var(--typography-title-md-normal-line-height);
+  }
+  .title-sm-normal {
+    font-family: var(--typography-title-sm-normal-font-family);
+    font-weight: var(--typography-title-sm-normal-font-weight);
+    font-size: var(--typography-title-sm-normal-font-size);
+    line-height: var(--typography-title-sm-normal-line-height);
+  }
+
+  .title-xxl-subtle {
+    font-family: var(--typography-title-xxl-subtle-font-family);
+    font-weight: var(--typography-title-xxl-subtle-font-weight);
+    font-size: var(--typography-title-xxl-subtle-font-size);
+    line-height: var(--typography-title-xxl-subtle-line-height);
+  }
+  .title-xl-subtle {
+    font-family: var(--typography-title-xl-subtle-font-family);
+    font-weight: var(--typography-title-xl-subtle-font-weight);
+    font-size: var(--typography-title-xl-subtle-font-size);
+    line-height: var(--typography-title-xl-subtle-line-height);
+  }
+  .title-lg-subtle {
+    font-family: var(--typography-title-lg-subtle-font-family);
+    font-weight: var(--typography-title-lg-subtle-font-weight);
+    font-size: var(--typography-title-lg-subtle-font-size);
+    line-height: var(--typography-title-lg-subtle-line-height);
+  }
+  .title-md-subtle {
+    font-family: var(--typography-title-md-subtle-font-family);
+    font-weight: var(--typography-title-md-subtle-font-weight);
+    font-size: var(--typography-title-md-subtle-font-size);
+    line-height: var(--typography-title-md-subtle-line-height);
+  }
+  .title-sm-subtle {
+    font-family: var(--typography-title-sm-subtle-font-family);
+    font-weight: var(--typography-title-sm-subtle-font-weight);
+    font-size: var(--typography-title-sm-subtle-font-size);
+    line-height: var(--typography-title-sm-subtle-line-height);
+  }
+
+  .title-xxl-slim {
+    font-family: var(--typography-title-xxl-slim-font-family);
+    font-weight: var(--typography-title-xxl-slim-font-weight);
+    font-size: var(--typography-title-xxl-slim-font-size);
+    line-height: var(--typography-title-xxl-slim-line-height);
+  }
+  .title-xl-slim {
+    font-family: var(--typography-title-xl-slim-font-family);
+    font-weight: var(--typography-title-xl-slim-font-weight);
+    font-size: var(--typography-title-xl-slim-font-size);
+    line-height: var(--typography-title-xl-slim-line-height);
+  }
+  .title-lg-slim {
+    font-family: var(--typography-title-lg-slim-font-family);
+    font-weight: var(--typography-title-lg-slim-font-weight);
+    font-size: var(--typography-title-lg-slim-font-size);
+    line-height: var(--typography-title-lg-slim-line-height);
+  }
+  .title-md-slim {
+    font-family: var(--typography-title-md-slim-font-family);
+    font-weight: var(--typography-title-md-slim-font-weight);
+    font-size: var(--typography-title-md-slim-font-size);
+    line-height: var(--typography-title-md-slim-line-height);
+  }
+  .title-sm-slim {
+    font-family: var(--typography-title-sm-slim-font-family);
+    font-weight: var(--typography-title-sm-slim-font-weight);
+    font-size: var(--typography-title-sm-slim-font-size);
+    line-height: var(--typography-title-sm-slim-line-height);
+  }
+
+  .body-lg-normal {
+    font-family: var(--typography-body-lg-normal-font-family);
+    font-weight: var(--typography-body-lg-normal-font-weight);
+    font-size: var(--typography-body-lg-normal-font-size);
+    line-height: var(--typography-body-lg-normal-line-height);
+  }
+  .body-lg-accent {
+    font-family: var(--typography-body-lg-accent-font-family);
+    font-weight: var(--typography-body-lg-accent-font-weight);
+    font-size: var(--typography-body-lg-accent-font-size);
+    line-height: var(--typography-body-lg-accent-line-height);
+  }
+  .body-lg-strong {
+    font-family: var(--typography-body-lg-strong-font-family);
+    font-weight: var(--typography-body-lg-strong-font-weight);
+    font-size: var(--typography-body-lg-strong-font-size);
+    line-height: var(--typography-body-lg-strong-line-height);
+  }
+
+  .body-md-normal {
+    font-family: var(--typography-body-md-normal-font-family);
+    font-weight: var(--typography-body-md-normal-font-weight);
+    font-size: var(--typography-body-md-normal-font-size);
+    line-height: var(--typography-body-md-normal-line-height);
+  }
+  .body-md-accent {
+    font-family: var(--typography-body-md-accent-font-family);
+    font-weight: var(--typography-body-md-accent-font-weight);
+    font-size: var(--typography-body-md-accent-font-size);
+    line-height: var(--typography-body-md-accent-line-height);
+  }
+  .body-md-strong {
+    font-family: var(--typography-body-md-strong-font-family);
+    font-weight: var(--typography-body-md-strong-font-weight);
+    font-size: var(--typography-body-md-strong-font-size);
+    line-height: var(--typography-body-md-strong-line-height);
+  }
+
+  .body-sm-normal {
+    font-family: var(--typography-body-sm-normal-font-family);
+    font-weight: var(--typography-body-sm-normal-font-weight);
+    font-size: var(--typography-body-sm-normal-font-size);
+    line-height: var(--typography-body-sm-normal-line-height);
+  }
+  .body-sm-accent {
+    font-family: var(--typography-body-sm-accent-font-family);
+    font-weight: var(--typography-body-sm-accent-font-weight);
+    font-size: var(--typography-body-sm-accent-font-size);
+    line-height: var(--typography-body-sm-accent-line-height);
+  }
+  .body-sm-strong {
+    font-family: var(--typography-body-sm-strong-font-family);
+    font-weight: var(--typography-body-sm-strong-font-weight);
+    font-size: var(--typography-body-sm-strong-font-size);
+    line-height: var(--typography-body-sm-normal-line-height);
+  }
+
+  .body-xs-normal {
+    font-family: var(--typography-body-xs-normal-font-family);
+    font-weight: var(--typography-body-xs-normal-font-weight);
+    font-size: var(--typography-body-xs-normal-font-size);
+    line-height: var(--typography-body-xs-normal-line-height);
+  }
+  .body-xs-accent {
+    font-family: var(--typography-body-xs-accent-font-family);
+    font-weight: var(--typography-body-xs-accent-font-weight);
+    font-size: var(--typography-body-xs-accent-font-size);
+    line-height: var(--typography-body-xs-accent-line-height);
+  }
+  .body-xs-strong {
+    font-family: var(--typography-body-xs-strong-font-family);
+    font-weight: var(--typography-body-xs-strong-font-weight);
+    font-size: var(--typography-body-xs-strong-font-size);
+    line-height: var(--typography-body-xs-strong-line-height);
+  }
+}
+
+@layer base {
+  :root {
+    --background: theme("colors.gray.50");
+    --foreground: theme("colors.gray.850");
+
+    --primary: theme("colors.blue.450");
+    --primary-foreground: theme("colors.white");
+
+    --secondary: theme("colors.gray.100");
+    --secondary-foreground: theme("colors.gray.850");
+
+    --muted: theme("colors.gray.100");
+    --muted-foreground: theme("colors.gray.500");
+
+    --accent: theme("colors.gray.100");
+    --accent-foreground: theme("colors.gray.850");
+
+    --destructive: theme("colors.red.450");
+    --destructive-foreground: theme("colors.white");
+
+    --info: theme("colors.blue.450");
+    --info-foreground: theme("colors.white");
+
+    --success: theme("colors.green.450");
+    --success-foreground: theme("colors.white");
+
+    --warning: theme("colors.yellow.250");
+    --warning-foreground: theme("colors.gray.850");
+
+    --border: theme("colors.gray.150");
+    --input: var(--border);
+    --ring: theme("colors.blue.200");
+
+    --radius-xs: theme("borderRadius.xs");
+    --radius-sm: theme("borderRadius.sm");
+    --radius-md: theme("borderRadius.md");
+    --radius-lg: theme("borderRadius.lg");
+    --radius-xl: theme("borderRadius.xl");
+    --radius-2xl: theme("borderRadius.2xl");
+    --radius-full: theme("borderRadius.full");
+
+    --font-sans: theme("fontFamily.sans");
+    --font-mono: theme("fontFamily.mono");
+  }
+
+  .dark {
+    --background: theme("colors.gray.950");
+    --foreground: theme("colors.gray.50");
+
+    --primary: theme("colors.blue.400");
+    --primary-foreground: theme("colors.gray.950");
+
+    --secondary: theme("colors.gray.800");
+    --secondary-foreground: theme("colors.gray.50");
+
+    --muted: theme("colors.gray.800");
+    --muted-foreground: theme("colors.gray.400");
+
+    --accent: theme("colors.gray.800");
+    --accent-foreground: theme("colors.gray.50");
+
+    --destructive: theme("colors.red.400");
+    --destructive-foreground: theme("colors.gray.950");
+
+    --info: theme("colors.blue.400");
+    --info-foreground: theme("colors.gray.950");
+
+    --success: theme("colors.green.400");
+    --success-foreground: theme("colors.gray.950");
+
+    --warning: theme("colors.yellow.200");
+    --warning-foreground: theme("colors.gray.950");
+
+    --border: theme("colors.gray.800");
+    --input: var(--border);
+    --ring: theme("colors.blue.700");
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings:
+      "rlig" 1,
+      "calt" 1;
+  }
+}

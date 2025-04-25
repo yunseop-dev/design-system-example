@@ -1,0 +1,22 @@
+{
+  "shadow": {
+    "resting-sm": {
+      "value": "0px 1px 2px 0px rgba(0, 0, 0, 0.04)"
+    },
+    "resting-md": {
+      "value": "0px 2px 2px 0px rgba(0, 0, 0, 0.04), 0px 8px 8px 8px rgba(0, 0, 0, 0.04)"
+    },
+    "resting-lg": {
+      "value": "0px 2px 2px 0px rgba(0, 0, 0, 0.04), 0px 8px 16px 4px rgba(0, 0, 0, 0.04)"
+    },
+    "floating-sm": {
+      "value": "0px 1px 1px 0px rgba(0, 0, 0, 0.02), 0px 4px 8px 0px rgba(0, 0, 0, 0.04)"
+    },
+    "floating-md": {
+      "value": "0px 1px 1px 0px rgba(0, 0, 0, 0.02), 0px 4px 8px 4px rgba(0, 0, 0, 0.04), 0px 16px 24px 8px rgba(0, 0, 0, 0.06)"
+    },
+    "floating-lg": {
+      "value": "0px 1px 1px 0px rgba(0, 0, 0, 0.02), 0px 8px 16px 4px rgba(0, 0, 0, 0.04), 0px 24px 32px 8px rgba(0, 0, 0, 0.06)"
+    }
+  }
+}
