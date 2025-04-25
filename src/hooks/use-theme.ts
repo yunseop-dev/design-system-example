@@ -1,7 +1,7 @@
 "use client";
 
 import { useContext } from "react";
-import { ThemeProviderContext } from "../contexts/theme-provider";
+import { ThemeProviderContext } from "@/contexts/theme-provider";
 
 // Hook to access the theme context
 export function useTheme() {
