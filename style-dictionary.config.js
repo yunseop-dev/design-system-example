@@ -1,3 +1,5 @@
+import "./src/tokens/typography.js";
+
 export default {
   source: ["src/tokens/**/*.json"],
   platforms: {
@@ -11,6 +13,10 @@ export default {
           options: {
             selector: ":root",
           },
+        },
+        {
+          destination: "typography.css",
+          format: "typography",
         },
       ],
     },
